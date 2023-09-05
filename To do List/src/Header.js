@@ -1,12 +1,16 @@
 import React from "react";
 import "./Header.css";
 
-const Header = () => {
+const Header = ({ title }) => {
   return (
     <div className="header">
-      <h2 className="header__title">To Do List</h2>
+      <h2 className="header__title">{title}</h2>
     </div>
   );
+};
+
+Header.defaultProps = {
+  title: "T0 Do List",
 };
 
 export default Header;

@@ -1,0 +1,35 @@
+.item{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 3px solid #dad7db;
+    background-color: #dad7db;
+}
+.item input{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+.item label{
+    font-size: 20px;
+    font-weight: bold;
+    user-select: none;
+}
+.box{
+    font-size: 30px;
+    margin-top: 10px;
+    background-color: none;
+    
+}
+
+.main svg{
+    color: #8e44ad;
+    transition: 0.3s ease;
+}
+.main svg:hover{
+    color: #fa0021;
+}
