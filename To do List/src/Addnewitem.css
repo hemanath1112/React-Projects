@@ -1,0 +1,39 @@
+.from{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10%;
+   
+
+}
+.from label {
+    
+    display: none;
+}
+.from input{
+    width: 50%;
+    height: 40px;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid rgb(192, 190, 190);
+    user-select: none;
+}
+.from button{
+    width: 40px;
+    padding: 5px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius:5px;
+    vertical-align: center;
+    border: 2px solid rgb(192, 190, 190);
+    background-color:  rgb(192, 190, 190);
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.from button:hover{
+    background-color: rgb(19, 235, 19) !important;
+    border: 2px solid rgb(19, 235, 19);
+    
+}

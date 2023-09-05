@@ -1,0 +1,16 @@
+.search{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.search input{
+    height: 40px;
+    width: 56%;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid rgb(192, 190, 190);
+}

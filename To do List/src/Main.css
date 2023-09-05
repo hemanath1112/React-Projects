@@ -1,13 +1,13 @@
 .main{
-    height: 200px;
+    height: 100%;
     padding: 10px;
     width: 70%;
     text-align: center;
-    margin: 0px auto;
+    margin: 70px auto;
 }
 .main__empty{
     font-size:20px;
     user-select: none;
     font-weight: bold;
-    margin-top: 70px;
+    margin: 50px;
 }
