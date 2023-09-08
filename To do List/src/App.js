@@ -3,7 +3,7 @@ import Main from "./Main";
 import Header from "./Header";
 import Footer from "./Footer";
 import Addnewitem from "./Addnewitem";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Search from "./Search";
 
 function App() {
@@ -14,6 +14,10 @@ function App() {
 
     JSON.parse(localStorage.getItem("too__list"))
   );
+
+  // useEffect(() => {
+  //   JSON.parse(localStorage.getItem("too__list"));
+  // }, []);
 
   // New Item add to list
   const [newItem, setNewitem] = useState("");
