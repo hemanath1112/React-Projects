@@ -1,0 +1,26 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: brown;
+    z-index: 10;
+}
+.image{
+    margin-top: 80px;
+    height: 400px;
+    width: 100%;
+    object-fit:cover; 
+    clip-path: polygon(100% 0%, 100% 80%, 0% 100%, 0% 0%);
+}
+.title{
+    /* font-size: 20px; */
+    color: #fff;
+    text-transform: uppercase;
+}
+.title span{
+    color: rgb(43, 255, 1);
+}
